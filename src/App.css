@@ -32,7 +32,53 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.chat-app {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* .second-panel{
+  
+} */
+
+.font-bold {
+  font-weight: bold;
+}
+
+.room {
+  text-align: center;
+  border: 2px solid;
+  border-radius: 5px;
+  list-style-type: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.room p {
+  margin: 0;
+}
+
+.room-com {
+  height: 210px;
+  overflow-y: scroll;
+}
+
+.room-com::-webkit-scrollbar {
+  display: none;
+}
+
+.heading{
+  position: fixed;
+  z-index: 20000;
+  margin: 0;
+}
+
+.room-data{
+  margin-top: 35px;
 }
